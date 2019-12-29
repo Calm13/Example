@@ -1,0 +1,56 @@
+.process-block {
+  &__text {
+    width: 100%;
+    text-align: center;
+    p {
+      font-size: 16px;
+      font-weight: 600;
+      font-family: Roboto, "sans-serif";
+      margin: 0 0 60px;
+    }
+  }
+  
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__design,
+  &__development,
+  &__testing,
+  &__launch {
+    padding: 87px 60px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(100% / 4 - 12px);
+  }
+  &__launch{
+    margin: 0px;
+  }
+  &__img{
+    margin: 0 0 40px;
+  }
+ 
+  &__design {
+    background: #10c6fc;
+  }
+  &__development {
+    background: #835aeb;
+  }
+  &__testing {
+    background: #002453;
+  }
+  &__launch {
+    background: #ff2b4a;
+  }
+  
+}
+.process {
+  .title16 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Raleway, "sans-serif";
+    margin: 0;
+  }
+ padding: 121px 0;
+ background: #f6f6f6;
+}

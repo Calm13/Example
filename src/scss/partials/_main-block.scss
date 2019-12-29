@@ -1,0 +1,32 @@
+.main-block {
+  background: rgb(0, 254, 255);
+  background: linear-gradient(
+    94deg,
+    rgba(0, 254, 255, 1) 1%,
+    rgba(192, 0, 255, 1) 80%
+  );
+  .main-block__inner {
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+    width: 690px;
+    padding: 300px 0 0;
+  }
+  h1 {
+    text-transform: uppercase;
+    font-size: 82px;
+    font-weight: 700;
+    border-top: 3px solid #9bb4be;
+    border-bottom: 3px solid #9bb4be;
+  }
+  span {
+    margin: 14px 37px 0;
+    font-size: 19px;
+    display: inline-block;
+    font-family: Roboto, "sans-serif";
+    font-weight: 400;
+  }
+  span:last-child {
+    color: #d3ff67;
+  }
+}

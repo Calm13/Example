@@ -1,0 +1,92 @@
+@media (max-width: 1400px) {
+  nav {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  nav {
+    display: none;
+  }
+  .about {
+    padding: 50px 0 50px !important;
+    p {
+      text-align: center;
+    }
+    .title16 {
+      text-align: center;
+    }
+  }
+  .about-block__inner {
+    display: block !important;
+    img {
+      display: none;
+    }
+    .hire-me {
+      display: inline-block;
+      margin: 0 25%;
+    }
+  }
+  .process {
+    padding: 52px 0px !important;
+  }
+  .process-block{
+    &__inner{
+      display: block;
+    }
+    &__design,
+  &__development,
+  &__testing,
+  &__launch {
+    margin: 0px!important;
+    width: 100%!important;
+  }
+  }
+  .contacts-block{
+    display: block!important;
+    &__input--wrapper{
+      margin: 0 0 20px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .main-block {
+    h1 {
+      font-size: 42px !important;
+    }
+    &__inner {
+      width: 50% !important;
+    }
+  }
+  .experience{
+    .row{
+      display: block;
+    }
+    .col--50{
+      width: 100%!important;
+      flex-basis: 100%;
+    }
+  }
+  .works{
+    display: none;
+  }
+  .info{
+    display: none;
+  }
+  .contacts-block{
+    display: block!important;
+    &__input--wrapper input{
+      min-width: 0px!important;
+      
+    }
+  }
+}
+@media (max-width: 500px){
+  .main-block {
+    h1 {
+      font-size: 20px !important;
+    }
+    span{
+      margin:14px 15px 0px!important ;
+    }
+  }
+}

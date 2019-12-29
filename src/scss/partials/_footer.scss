@@ -1,0 +1,24 @@
+footer{
+  background: #222;
+  padding: 60px 0;
+.footer-block {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  
+  img{
+    border-right:1px solid #888 ;
+   
+    padding: 0 10px;
+  }
+  
+}
+p {
+  font-size: 12px;
+  font-family: Roboto, "sans-serif";
+  font-weight: 400;
+  color: #a7a7a7;
+  text-align: center;
+  margin: 16px 0 0;
+}
+}

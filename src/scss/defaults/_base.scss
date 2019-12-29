@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,900|Roboto:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+  overflow: hidden;
+}
+li {
+  list-style: none;
+}
+.title16 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Roboto, "sans-serif";
+  margin: 0 0 40px;
+}
+.title40 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Raleway, "sans-serif";
+  margin: 0 0 33px;
+}
+.hire-me {
+  background: #ff2b4a;
+  padding: 15px 70px;
+  color: #fff;
+  border: 0px solid transparent;
+}
+.row {
+  display: flex;
+  margin: 0 -7px;
+  flex-wrap: wrap;
+}
+.col {
+  min-height: 270px;
+  padding: 7px;
+  &--25{
+    @extend .col;
+    width: 25%;
+    flex-basis: 25%;
+    
+  }
+  &--50{
+  width: 50%;
+  flex-basis: 50%;
+  padding: 7px;
+}
+ &--light-blue{
+background:$light-blue;
+ }
+ &--blue{
+   background: $blue;
+}&--dark-blue{
+   background: $dark-blue;
+}
+&--red{
+   background: $red;
+}
+}
+.column {
+  height: 100%;
+  padding: 60px 43px 65px;
+  background-image: -moz-linear-gradient(
+    45deg,
+    rgba(158, 53, 105, 0.3) 0%,
+    rgba(93, 35, 96, 0.3) 100%
+  );
+  background-image: -webkit-linear-linear-gradient(
+    45deg,
+    rgba(158, 53, 105, 0.3) 0%,
+    rgba(93, 35, 96, 0.3) 100%
+  );
+  background-image: -ms-linear-gradient(
+    45deg,
+    rgba(158, 53, 105, 0.3) 0%,
+    rgba(93, 35, 96, 0.3) 100%
+  );
+  background-image: linear-gradient(
+    45deg,
+    rgba(158, 53, 105, 0.3) 0%,
+    rgba(93, 35, 96, 0.3) 100%
+  );
+  &__text{
+    padding: 30px 0;
+    border-bottom: 2px solid rgba(255 , 255 , 255 , .2);
+    font-family: Roboto , 'sans-serif';
+    &:last-child{
+      border: none;
+      border-bottom: 0px;
+    }
+
+    .date{
+      font-size: 16px;
+      color: rgba(255 , 255 , 255 , .702);
+      margin:0 0 18px ;
+    }
+    p{
+      font-size: 16px;
+      color: rgba(255 , 255 , 255 , 0.502);
+      line-height: 1.45;
+    }
+    h5{
+      margin: 0 0 18px;
+    }
+  }
+}
+.title-26 {
+  font-size: 26px;
+  font-weight: 700;
+  color: $white;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+}
+.text-bold {
+  font-weight: 700;
+  &--white {
+    @extend .text-bold;
+    color: white;
+  }
+}
+.swiper-container {
+  width: 600px;
+  height: 300px;
+}
